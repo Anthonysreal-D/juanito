@@ -9,10 +9,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 /**
  * Clase que realiza pruebas de navegación en el sitio web de la UPO.
  */
-public class TestFuncional01VerificacionEnlaces2 {
-
+public class TestFuncional01VerificacionEnlaces {
     private WebDriver navegador;
-
     // Configuración inicial
     @BeforeEach
     public void configurarNavegador() {
@@ -25,7 +23,7 @@ public class TestFuncional01VerificacionEnlaces2 {
         options.addArguments("--disable-dev-shm-usage"); // Previene errores de memoria compartida
         options.addArguments("--remote-allow-origins=*");
         // Inicia el navegador Chrome
-        WebDriver navegador = new ChromeDriver(options);
+        navegador = new ChromeDriver(options);
     }
 
     // Prueba inicial de funcionamiento  
