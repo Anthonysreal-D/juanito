@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 /**
  * Clase que realiza pruebas de navegación en el sitio web de la UPO.
  */
-public class testFuncional01VerificacionEnlaces2 {
+public class TestFuncional01VerificacionEnlaces2 {
 
     private WebDriver navegador;
 
